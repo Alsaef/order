@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Libre+Baskerville&display=swap');
+body{
+    font-family: 'Asap', sans-serif;
+}
+.explaine{ 
+    display: flex;
+    margin: 50px ;
+}
+.background{ position: relative;
+    top: 10px;
+    padding: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 2px black solid;
+}
+.background h1{ 
+    font-weight: bold;
+}
+p{ 
+    font-weight: bold;
+}
+.ps{ padding: 30px;
+    position: relative;
+    top: 10px;
+    box-shadow: gray 10px 1px 10px 1px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.haf-with{
+    width: 85%;
+}
+.ps input{ outline: none;
+    border: none;
+    border-bottom: 2px ;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    background: none;
+}
+.btn{ color: white;
+     background-color: black;
+     outline: none;
+     border: none;
+   border-radius: 5px;
+   padding: 10px;
+   text-decoration: none;
+}
+.ps:hover{
+    background-color: aqua;
+}
